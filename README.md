@@ -5,7 +5,9 @@
 documentation.
 
 ## Usage
-Currently only an `example` subcommand is implemented.
+Currently only an `example` subcommand is implemented (see
+[source](https://github.com/RagingTiger/powpy/blob/21ae75123e363706cc0582777d03a0d6b54d38ed/src/pow.py#L7-L52)
+)
 
 ## Environment Setup
 Here we will discuss several ways for setting up a `Python 3` environment.
