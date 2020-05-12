@@ -54,7 +54,7 @@ magic hash `0000c3af42fc31103f1fdc0151fa747ff87349a4714df7cc52ea464e12dcd4e9`
 that has a value of
 `1350565582647790482127632554504241516291697500941742491868079705537959145`.
 
-Simply be inspection we can see that this `new hash value` is less than the
+Simply by inspection we can see that this `new hash value` is less than the
 `target`. Our `Proof of Work` is complete.
 
 
