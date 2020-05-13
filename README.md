@@ -1,13 +1,11 @@
 ## About
-`Python 3`-based `Proof of Work` CLI tool for `Crypto Mining`. It currently uses
-`SHA-256` and is heavily based on the
-[bitcoin wiki: Proof of Work](https://en.bitcoin.it/wiki/Proof_of_work)
-documentation.
+`Python 3`-based `Proof of Work` CLI tool for `Crypto Mining`.
 
 ## Usage
 Currently only an `example` subcommand is implemented (see
 [source](https://github.com/RagingTiger/powpy/blob/21ae75123e363706cc0582777d03a0d6b54d38ed/src/pow.py#L7-L52)
-). This subcommand will output the following:
+). The purpose of this subcommand is `educational` and is heavily based on the
+[bitcoin wiki: Proof of Work](https://en.bitcoin.it/wiki/Proof_of_work) documentation. When executed it runs a `crypto mining simulation` using `SHA-256` with the following output:
 ```
 $ python pow.py example
 Hello, world!0 => 1312af178c253f84028d480a6adc1e25e81caa44c749ec81976192e2ec934c64
@@ -56,7 +54,6 @@ that has a value of
 
 Simply by inspection we can see that this `new hash value` is less than the
 `target`. Our `Proof of Work` is complete.
-
 
 ## Environment Setup
 Here we will discuss several ways for setting up a `Python 3` environment.
