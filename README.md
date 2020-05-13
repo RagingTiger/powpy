@@ -75,7 +75,7 @@ $ python src/pow.py example
 ### Docker
 My personal choice is just to build or run the docker image.
 
-#### Docker Run
+#### Run
 The [`tigerj/powpy`](https://hub.docker.com/r/tigerj/powpy)image is
 `multi-arch` for `arm`, `arm64`, and `amd64`:
 ```
@@ -83,7 +83,7 @@ $ docker run --rm -it tigerj/powpy
 ```
 + **Note**: This will simply run the `example` subcommand by default.
 
-#### Docker Build
+#### Build
 ```
 $ git clone https://github.com/RagingTiger/powpy
 $ cd powpy
